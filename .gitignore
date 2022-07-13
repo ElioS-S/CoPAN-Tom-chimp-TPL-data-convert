@@ -1,0 +1,20 @@
+# Git ignore for PhysioData Toolbox project.
+
+# MATLAB autosave files:
+*.asv
+
+# Ignore data in data folder:
+data/
+
+# Ignore data in _untracked or _ignore folders:
+*_untracked/
+*_ignore/
+
+# Ignore files that end with _ignore:
+*_ignore.*
+
+# Ignore Word autosave files:
+~$*
+
+# Ignore Windows thumbnails:
+Thumbs.db
